@@ -3,3 +3,55 @@ h1{
 	background-color: red;
 	font-size: 78px
 }
+
+p{
+	/*Tamaño de la fuente
+	em 1em = 16 px 
+	= 34px / 16px = 2.125 em*/
+	font-size: 2.125em;
+	/*Tipo de fuente*/
+	font-family:Georgia,serif;
+	/*Peso/Ancho de la fuente: normal, bolder,lighter,100 a 900, inherit*/
+	font-weight: 900;
+	/*estilo de la fuentenormal,italic,oblique*/
+	font-style:oblique;
+	/*variante de la fuente*/
+	font-variant: small-caps;
+	/*interlineado de texto*/
+	line-height: 200%;
+
+}
+
+.par1{
+	border: red thin solid;
+}
+.par2{
+	border: green medium solid;
+}
+.par3{
+	border: blue thick solid;
+}
+.par4{
+	border: red 20px double;
+}
+.par5{
+	border: pink 30px dotted;
+}
+.par6{
+	border: orange 40px dashed;
+}
+.par7{
+	border: gold 50px groove;
+}
+.par8{
+	border: purple 60px ridge;
+}
+.par9{
+	border: brown 70px inset;
+}
+.par10{
+	border: silver 80px outset;
+}
+em{
+	font-weight: lighter;
+}
