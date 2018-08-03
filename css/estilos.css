@@ -1,0 +1,31 @@
+body{
+
+
+background-color: #09E6E9;
+}
+
+h1{
+text-align: center;
+}
+/*aplicando el mismo estilo para p y code*/
+p,code{
+	font-size: 72px;
+}
+em{
+	color:#F31126;
+	font-size: 64px;
+}
+.sy1{
+	background-color: #F5F802;
+	font-size:70px;
+}
+.sy2{
+	background-color: #A8F703;
+	font-size:70px;
+	/*propiedad de fondo*/
+}
+
+p em{
+	color: green;
+	background-color: yellow;
+}
